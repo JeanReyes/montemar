@@ -1,0 +1,661 @@
+body{
+    background: white;
+}
+
+/*banner*/
+nav{
+    height: 190px;
+    background: white;
+}
+
+
+.contenedor{
+    display: flex;
+}
+.contenedor2{
+    display: flex;
+}
+.logo1{
+    padding-left: 40px;
+    width: 90%;
+    float: left;
+}
+
+.contactoBannber{
+   
+    margin-left: 10px;
+    margin-top: -8px;
+   
+    
+}
+.mailtoBanner{
+    float: left;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.ubicacionBanner{
+    float: left;
+    margin-left: 5px;
+    margin-top: -4px;
+}
+.imagen_logo1, .imagen_logo2, .imagen_logo3, .imagen_logo4, .imagen_logo5, .imagen_logo6 {
+    width: 100%;
+}
+
+.banerEscritorio{
+    display: flex;
+}
+
+.banericon{
+    display: none;
+}
+
+.logo2{
+    width: 4%;
+    float: left;
+}
+
+nav p{
+    margin: 0px;
+    color: black;
+    display: inline;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: none;
+    opacity: .9; 
+}
+
+.logo3{
+    width: 4%;
+    margin-left: 10px;
+}
+
+.logo4{
+    width: 4%;
+    margin-left: 10px;
+}
+
+.logo5{
+    width: 44%;
+    float: left;
+}
+
+.logo6{
+    width: 50%;
+    float: left;
+}
+.redes{
+   width: 11.5%; 
+   margin-top: -37px;
+}
+
+/*seccion1*/
+
+.seccion1{
+    height: 840px;
+    width: 100%;
+    background: url(../img/fondoSeccion2.jpg);
+    background-repeat: no-repeat!important; 
+    background-size: 110%!important;
+   
+}
+
+.textoseccion1{
+    margin-top: 300px;
+}
+.textoseccion1 h3 {
+    
+    font-size: 60px;
+    color: white;
+    background-color: #0f8ad6; 
+}
+
+.textoseccion2{
+    display: none;
+    margin-top: 300px;
+}
+.textoseccion2 h3 {
+    
+    font-size: 60px;
+    color: white;
+    background-color: #0f8ad6; 
+}
+
+.nombreRegistro{
+    width: 95%;
+    margin: 0px auto;
+    color: white;
+    background: #29abe2;
+
+}
+
+.h31{
+    width: 55%;
+    font-family: venir;
+}
+.h32{
+    width:28%;
+    font-family: venir;
+}
+
+/*seccion formulario*/
+
+
+
+.promoorto{
+    width: 90%;
+    color: white;
+    
+    
+}
+
+.promoFormu{
+    margin-top: 20px;
+    display: block;
+
+}
+ .promocion {
+  
+    margin: 0px;
+    padding: 0px;
+    padding-left: 100px;
+  
+    font-size: 35px;
+}
+.ortodoncia{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 30px;
+    font-size: 47px;
+}
+
+.descuento{
+    width: 75%;
+    color: white;
+    overflow: hidden;
+    display: flex;
+}
+
+.porcentaje{
+    float: left;
+    padding: 5%;
+    width: 100%;
+  
+}
+
+.textodescuento p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.formulario{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 20px;
+    margin-right: 8%;
+    border-radius: 20px;
+    background: #29abe2;
+}
+
+.formulario label {
+    color: white;
+}
+
+.formulario h4{
+    color: white;
+    text-align: center;
+}
+
+.valor{
+    margin-right: 8%;
+    font-size: 11px;
+}
+
+.boton{
+    width: 60%;
+    background: #f15a24;
+    font-size: 20px;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    color: white
+}
+
+.boton:hover{
+    cursor: pointer;
+    color: white;
+}
+
+/*seccion 2*/
+.lineaSeccion{
+    margin-top: -10px;
+}
+
+.tituloCuerpo{
+    text-align: center;
+    color: black;
+    font-family: monserrat;
+}
+
+hr{
+    border: 3px solid #34888c;
+    width: 17%;
+}
+
+.imgespecialidad{
+    width: 150px;
+    height: 141px;
+    margin: 0px auto;
+}
+
+.seccion1 p{
+    text-align: center;
+    margin: 0px;
+}
+.seccion2 p{
+    text-align: center;
+    margin: 0px;
+}
+
+.especi{
+    font-family: din-regular;
+}
+
+/*footer*/
+
+footer{
+    height: 200px;
+    
+    color: white;
+    background: #333333;
+}
+.contenedorfooter{
+    width: 10%;
+    margin: 0px auto;
+}
+
+footer p a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: white;
+    opacity: .9; 
+}
+
+footer p {
+    text-align: center;
+    margin: 0px;
+}
+
+
+.imgfooter{
+    
+    width: 100%;
+
+}
+
+
+.registroExitoso{
+    display: none;
+    left: -100%;
+    padding-bottom: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 100px;
+
+   
+}
+.contenedorExitoso{
+    display: block;
+    padding-bottom: 10px;
+    background: rgba(255, 255, 255, 0.0);
+    width: 60%;
+    height: 145px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.check{
+    text-align: center;
+   
+}
+
+.seccionpromocion{
+    display: none;
+}
+
+.datos{
+    display: inline-block;
+}
+
+.formuEscritorio{
+    display: block;
+}
+
+.formuMobile{
+    display: none;
+}
+
+.seccion2{
+    display: block;
+}
+
+.seccion23{
+    display: none;
+}
+
+.registroExitoso h5 a{
+    color: blue;
+}
+
+.efecto {
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%
+    }
+  
+    to {
+      margin-left: 10%;
+      width: 80%;
+    }
+  }
+
+
+
+/*stilos mobile*/
+
+@media screen and (max-width :500px){
+
+    nav{
+        height: 200px;
+        background: white;
+    }
+    
+    .logo1{
+        
+        margin-bottom: 10px;
+        padding-left: 30px;
+        width: 90%;
+       
+    }
+
+    .contenedor2{
+        display: block; 
+    }
+
+    .banerEscritorio{
+        display: none;
+    }
+
+    .iconContac{
+        display: block;
+        float: left;
+        padding-left: 25px;
+    }
+
+    .banericon{
+        display: block;
+    }
+
+    .logo2{
+        
+        width: 12%;
+        float: left;
+        overflow: hidden;
+        margin-left: 5px; 
+    }
+
+    .logo3{
+        width: 12%;
+        float: left;
+       overflow: hidden;
+     
+        margin-left: 5px; 
+    }
+    
+    .logo4{
+        display: none;
+        width: 12%;
+        overflow: hidden;
+        float: left;
+        margin-left: 5px;
+       
+    }
+    
+    .logo5{
+        width: 60%;
+        float: none;
+        margin: 0px auto;
+    }
+    
+    .logo6{
+        width: 65%;
+        float: none;
+        margin: 0px auto;
+    }
+
+    .contactoBannber{
+        float: none;
+        overflow: hidden;
+        margin-top: 0px;
+        font-size: 13px;
+        
+    }
+    .mailtoBanner{
+        display: block;
+        font-size: 13px;
+        margin-left: 2px;
+        margin-top: 2px;
+        overflow: hidden;
+        
+       
+    }
+    
+    .ubicacionBanner{
+        overflow: hidden;
+        display: none;
+        font-size: 13px;
+        margin-left: 2px;
+        margin-top: 2px;
+        float: none;
+        
+    }
+
+    nav p{
+        margin: 0px;
+        color: black;
+        display: block;
+    }
+
+    .redes{
+        
+        top: -10px;
+        
+        margin: 0px auto;
+        overflow: hidden;
+        
+     
+    }
+    .imagen_logo1, .imagen_logo2, .imagen_logo3, .imagen_logo4, .imagen_logo5, .imagen_logo6, .imagenPromo {
+        width: 100%;
+    }
+    
+    /*seccion 2*/
+
+    
+
+    .textoseccion1{
+        margin-top: 20px;
+    }
+    .textoseccion1 h3{
+        font-size: 20px;
+    }
+
+    .textoseccion2 h3{
+        font-size: 20px;
+    }
+
+    .registroExitoso{
+        display: none;
+        padding-bottom: 10px;
+        background: rgba(255, 255, 255, 0.8);
+        width: 60%;
+        margin: 0px auto;
+        text-align: center;
+        margin-top: 20px;
+       
+    }
+    .registroExitoso h1{
+        font-size: 25px;
+    }
+
+    .registroExitoso h5{
+        font-size: 18px;
+    }
+    .seccionpromocion{
+        margin-top: 10px;
+        width: 37%;
+        float: right;
+        overflow: hidden;
+        display: block;
+    }
+    .seccionpromocion2{
+        margin-top: 10px;
+        width: 37%;
+        float: right;
+        overflow: hidden;
+        display: none;
+    }
+
+    .formulario{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 0px;
+    margin-right: 0%;
+    border-radius: 10px;
+    background: #29abe2;
+}
+
+.lineaSeccion{
+    display: none;
+}
+
+.promoFormu{
+    margin-top: 10px;
+
+}
+
+.registroExitoso{
+    display: none;
+    padding-bottom: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.contenedorExitoso{
+    display: none;
+    padding-bottom: 10px;
+    background: rgba(255, 255, 255, 0.0);
+    width: 60%;
+    height: 145px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.h31{
+    width: 55%;
+    font-family: venir;
+    text-align: center;
+}
+.h32{
+    width:28%;
+    font-family: venir;
+    text-align: center;
+}
+
+.textoseccion1{
+    display: none;
+}
+.textoseccion2{
+    display: block;
+    margin-top: 125px;
+}
+
+.seccion1 {
+     height: 680px;
+    width: 100%;
+    background: url(../img/fondoSeccion1.jpg);
+    background-repeat: no-repeat!important;
+    background-size: 100%!important;
+}
+
+.tituloCuerpo {
+    text-align: center;
+    color: black;
+    font-family: monserrat;
+    font-size: 20px;
+}
+hr {
+    border: 3px solid #34888c;
+    width: 33%;
+}
+
+footer{
+    height: 300px;
+    
+    color: white;
+    background: #333333;
+}
+
+.check{
+    text-align: center;
+   
+}
+
+#content {
+    height: 800px;
+}
+
+.seccion2{
+    display: none;
+}
+
+.seccion23{
+    display: block;
+    margin-top: 70px;
+}
+
+.seccion23 p {
+    text-align: center;
+    margin: 0px;
+}
+
+.registroExitoso h5{
+    font-size: 13px;
+}
+
+
+
+
+}
+
+

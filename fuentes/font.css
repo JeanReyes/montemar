@@ -1,0 +1,17 @@
+
+@font-face{
+    font-family: venir;
+    src:url(AvenirNextLTPro-Bold.otf);
+}
+@font-face{
+    font-family: din;
+    src:url(DINPro-Bold_13934.ttf);
+}
+@font-face{
+    font-family: monserrat;
+    src:url(Montserrat-Medium.ttf);
+}
+@font-face{
+    font-family: din-regular;
+    src:url(DINPro-Regular_13937.ttf);
+}
